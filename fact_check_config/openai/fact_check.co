@@ -1,0 +1,18 @@
+define user ask about report
+  "What was last month's unemployment rate?"
+  "Which industry added the most jobs?"
+  "How many jobs were added in the transportation industry?"
+
+define flow answer report question
+  user ask about report
+  bot provide report answer
+  $accurate = execute check_facts
+  if not $accurate
+    bot remove last message
+    bot inform answer unknown
+
+define bot remove last message
+  "(remove last message)"
+
+define bot inform answer unknown
+  "I don't have enough information to answer"

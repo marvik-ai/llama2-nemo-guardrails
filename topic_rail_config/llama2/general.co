@@ -1,0 +1,26 @@
+# define niceties
+define user express greeting
+    "hello"
+    "hi"
+    "what's up?"
+
+define flow greeting
+    user express greeting
+    bot express greeting
+    bot ask how are you
+
+# define limits
+define user ask sports
+    "What is your favorite football team?"
+    "Who is Rafael Nadal?"
+    "Do you know any football player?"
+    "Tennis player"
+    "Did you see the match last night?"
+
+define bot answer sports
+    "I'm a shopping assistant, I don't like to talk of sports."
+
+define flow sports
+    user ask sports
+    bot answer sports
+    bot offer help
