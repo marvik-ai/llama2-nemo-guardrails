@@ -1,4 +1,6 @@
 [![Guardrails](docs/imgs/nvdia-guardrails-logo.jpeg)](https://developer.nvidia.com/blog/nvidia-enables-trustworthy-safe-and-secure-large-language-model-conversational-systems/?ncid=prsy-552511#cid=dl28_prsy_en-us)
+[![License](https://img.shields.io/github/license/marvik-ai/llama2-nemo-guardrails)](LICENSE)
+[![NemoGuardrails](https://img.shields.io/badge/NVIDIA-Nemo%20Guardrails-green)](https://github.com/NVIDIA/NeMo-Guardrails)
 # Enhancing Llama2 Conversations with NeMo Guardrails
 This repository showcases the integration of [NVIDIA NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) with the [Llama2](https://ai.meta.com/llama/) model.  
 
